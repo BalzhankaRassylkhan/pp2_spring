@@ -1,0 +1,5 @@
+print(4==5*2)
+print(5&9)
+print(7|1)
+print(6^9)
+print( ~6)
