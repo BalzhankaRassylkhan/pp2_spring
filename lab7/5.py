@@ -7,8 +7,8 @@ width, height = 800, 800
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Mickey Mouse Clock")
 
-second_hand_image = pygame.image.load("leftarm.png")
-minute_hand_image = pygame.image.load("rightarm.png")
+second_hand_image = pygame.image.load("left.png")
+minute_hand_image = pygame.image.load("right.png")
 mickey_image = pygame.image.load("mainclock.png")
 mickey_rect = mickey_image.get_rect(center=(width // 2, height // 2))
 while True:
